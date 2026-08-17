@@ -14,22 +14,25 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-      - name: Generate Trophies
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-          target_branch: output
-          output_path: dist/trophies.svg
-          user: ${{ github.repository_owner }}
-          theme: onedark
-          no_frame: false
-          no_bg: false
+      - name: Fetch Trophies SVG
+        run: |
+          mkdir -p dist
+          # curl দিয়ে বিকল্প মিরর থেকে ডেটা সংগ্রহ
+          curl -L -s --compressed "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=onedark&no-frame=false&no-bg=false&margin-w=4" -o dist/trophies.svg
+          
+          # যদি ফাইলটি খালি থাকে বা ভুল আসে তাহলে ব্যাকআপ তৈরি
+          if [ ! -s dist/trophies.svg ]; then
+            echo "Failed to fetch from primary, trying fallback..."
+            curl -L -s --compressed "https://profile-trophies.deno.dev/api?username=${{ github.repository_owner }}&theme=onedark" -o dist/trophies.svg
+          fi
 
-      - name: Push Trophies to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          destination_dir: trophies
