@@ -31,8 +31,16 @@ Email Me 👉 ✉️ [milons.dev@gmail.com](mailto:milons.dev@gmail.com) for Col
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/mdmilon.sarker.165) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/md._milon_sarker) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/md-milon-sarker-852578263) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:milons.dev@gmail.com) 
 
 
+### 🏆 GitHub Trophies
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Milon-S&theme=onedark&no-frame=false&no-bg=false&margin-w=4&v=1" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/Milon-S/Milon-S/output/trophies/trophies.svg" alt="GitHub Trophies" />
+</div>
+
+### 🏆 Achievements & Badges
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Milon-S&theme=tokyonight" alt="GitHub Badges" />
 </div>
 
 ---
@@ -51,18 +59,21 @@ Email Me 👉 ✉️ [milons.dev@gmail.com](mailto:milons.dev@gmail.com) for Col
 ### 📊 GitHub Stats & Streaks
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Milon-S&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Milon-S&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Milon-S&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+ 
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Milon-S&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Milon-S&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+### 📈 GitHub Activity Graph
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Milon-S&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Milon-S&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+</div>
+
+
+
 
 ---
 [![](https://komarev.com/ghpvc/?username=Milon-S&icon=0&color=0)](https://visitcount.itsvg.in)
