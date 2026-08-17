@@ -31,11 +31,7 @@ Email Me 👉 ✉️ [milons.dev@gmail.com](mailto:milons.dev@gmail.com) for Col
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/mdmilon.sarker.165) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/md._milon_sarker) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/md-milon-sarker-852578263) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:milons.dev@gmail.com) 
 
 
-### 🏆 GitHub Trophies
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Milon-S/Milon-S/output/trophies/trophies.svg" alt="GitHub Trophies" />
-</div>
 
 ### 🏆 Achievements & Badges
 
