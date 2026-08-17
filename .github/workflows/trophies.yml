@@ -4,17 +4,29 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Generate Trophies
-        run: |
-          mkdir -p dist
-          curl -s "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=onedark&no-frame=false&no-bg=false&margin-w=4" -o dist/trophies.svg
-      - name: Push to Output Branch
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          target_branch: output
+          output_path: dist/trophies.svg
+          user: ${{ github.repository_owner }}
+          theme: onedark
+          no_frame: false
+          no_bg: false
+
+      - name: Push Trophies to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
